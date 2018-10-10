@@ -30,7 +30,7 @@ def get_character_movies_from_api(character)
   # this collection will be the argument given to `parse_character_movies`
   #  and that method will do some nice presentation stuff: puts out a list
   #  of movies by title. play around with puts out other info about a given film.
-  films_array.sort_by do |film|
+  films_array.sort_by do |film| #to sort the episodes in other
     film["episode_id"]
   end
 end
